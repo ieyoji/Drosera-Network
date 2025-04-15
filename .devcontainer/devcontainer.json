@@ -1,0 +1,10 @@
+{ "name": "Drosera-Network Dev Container", "build": { "dockerfile": 
+    "Dockerfile", "context": ".."
+  },
+  "settings": { "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    // Masukkan ekstensi VSCode pilihan, misalnya: "ms-python.python", 
+    // "dbaeumer.vscode-eslint"
+  ], "postCreateCommand": "echo 'Dev container siap digunakan!'"
+}
